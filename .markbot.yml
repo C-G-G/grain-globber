@@ -1,4 +1,5 @@
-repo: 'grain-globber'
+repo: "grain-globber"
+canvasCourse: javascript
 
 naming: true
 restrictFileTypes: true
@@ -10,34 +11,44 @@ git:
   allSynced: true
 
 html:
-  - path: 'index.html'
+  - path: "index.html"
     locked: true
 
 css:
-  - path: 'css/main.css'
+  - path: "css/main.css"
     valid: true
     bestPractices: true
     has:
-      - ['html', 'box-sizing', 'border-box', 'The `border-box` layout model is needed for this assignment—use the `borderbox` snippet']
-      - ['*', 'box-sizing', 'inherit', 'The `border-box` layout model is needed for this assignment—use the `borderbox` snippet']
-      - ['.grains']
-      - ['.grains img', 'float', 'left']
-      - ['.grains li']
-      - ['.grains h2']
-      - ['.grains p']
+      - [
+          "html",
+          "box-sizing",
+          "border-box",
+          "The `border-box` layout model is needed for this assignment—use the `borderbox` snippet",
+        ]
+      - [
+          "*",
+          "box-sizing",
+          "inherit",
+          "The `border-box` layout model is needed for this assignment—use the `borderbox` snippet",
+        ]
+      - [".grains"]
+      - [".grains img", "float", "left"]
+      - [".grains li"]
+      - [".grains h2"]
+      - [".grains p"]
 
 js:
-  - path: 'js/grains.js'
+  - path: "js/grains.js"
     locked: true
 
-  - path: 'js/main.js'
+  - path: "js/main.js"
     valid: true
     bestPractices: true
     search:
       - '\$\('
-      - 'var'
-      - 'forEach'
-      - 'function'
+      - "var"
+      - "forEach"
+      - "function"
     search_not:
       - 'document.write\('
       - 'console.log\('
@@ -45,5 +56,5 @@ js:
       - 'prompt\('
 
 screenshots:
-  - path: 'index.html'
+  - path: "index.html"
     sizes: [320]
