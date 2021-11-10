@@ -1,6 +1,6 @@
 // Loop over the grains variable and use jQuery to output li tags into the ul
 // Each li tag should have img, h2 and p
-// Style JS generated list using CSS 
+// Style JS generated list using CSS
 
 var $ul = $('ul');
 
